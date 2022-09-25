@@ -1,0 +1,34 @@
+Q 1 : =====================================================================================
+
+Servlet :
+It may be considered a component or technology that is used to develop Web Applications.
+We can write HTML code inside a servlet class.
+Servlets works inside the server and can handle request from the client and generate a response.
+
+DispatcherServlet is a predefined servlet that handles all the flow control logic inside a server.
+In Spring MVC the developer has to configure it while inside a SpringBoot it is auto-configured.
+
+Q 2 : =====================================================================================
+
+Spring MVC and Spring Boot :
+
+Spring MVC is a framework that is used to build scalable applications.
+It has modules for Model -View -Controller and also uses plain java classes. It uses the Model for 
+implementing logic between the View And controller. It uses a Dispatcher Servlet for handling flow control logic.
+
+SpringBoot is a microservice-based framework built on top of Spring, thus having many enhancements.
+Here the Dispatcher servlet automatically configures the flow of control.
+
+
+Q 3 : ====================================================================================
+
+SOAP and REST :
+
+SOAP is an XML-based protocol. It makes use of XML to have a connection between client and Server.
+We have to keep a WSDL file to show all the services we expose to the client.
+Heavyweight Application as compared to REST.
+
+REST is Representation State Transfer :
+REST uses HTTP to expose the operations and functionalities.
+We can easily use the GET, POST, PUT, and DELETE operations using REST.
+

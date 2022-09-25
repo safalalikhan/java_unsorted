@@ -1,0 +1,46 @@
+Q 1 
+
+Spring MVC Architecture 
+It is a ModelView Controller Architecture.
+The model has all the data related to the application.
+The view is the representation of the processed data to be given in a specific format like XML or JSON.
+The controller implements all the Business logic of the application.
+
+Working :
+The dispatcher servlet gets the data from the client and does the mapping from the input file,
+then forward the data to the controller.
+The controller implements the business logic and then returns an object of Model and to View.
+The Servlet again displays or gives the response out.
+
+
+Q 2 
+
+The HTTP protocol is a protocol or set of rules and guidelines for distributed, collaborative, hypermedia information systems that allow users to communicate data on the World Wide Web.
+HTTP requests are of different types :
+GET requests a specific resource in its entirety
+POST adds content, messages, or data to a new page under an existing web resource
+PUT directly modifies an existing web resource or creates a new URI if need be
+DELETE gets rid of a specified resource
+
+these are the basics, used for the CRUD operations between client and server.
+both the request and the response also contain some additional data or information for the other
+side.
+
+Q 3 
+
+Web Application is usually for an End user while,
+Web services can be for the end user or another web application.
+A web application can access the WebService to get some data or to perform some task,
+whereas WebService can not access the web application to get some data.
+Web service can be used by different kinds of applications, but not the case with a web application.
+Web application generates web page whereas web service generates raw data.
+
+Q 4 
+
+HTTP response status codes indicate whether a specific HTTP request has been completed.
+Responses are grouped into five classes:
+Informational responses (100–199)
+Successful responses (200–299)
+Redirection messages (300–399)
+Client error responses (400–499)
+Server error responses (500–599)
