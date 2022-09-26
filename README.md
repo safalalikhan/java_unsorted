@@ -11,3 +11,9 @@ Also added some extra learning files and demo applications or apis created.
 - JPA
 - Spring
 - Spring Boot
+
+## Repo created and maintained by :
+- Safal Ali Khan
+
+## Contact Details :
+https://safalalikhan.com
